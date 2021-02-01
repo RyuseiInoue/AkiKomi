@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AkiKomi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ここにサイト説明を入れます">
+    <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/fixmenu_pagetop.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(function(){
+    $('a[href^="#"]').click(function() {
+    var speed = 800;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+    });
+    });
+    </script>
+    <header>
+    <h1 id="logo"><a href="index.html"><img src="images/youtube_profile_image.png" alt="SAMPLE COMPANY"  ></a></h1>
+    <nav id="menubar">
+    <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#objective">Objective</a></li>
+    <li><a href="#application">Application</a></li>
+    <li><a href="#sensor">Sensor</a></li>
+    <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+    </header>
+    
+    <div id="container">
+    
+    <div id="contents">
+    
+    
+    <section id="abstract">
+    
+    <h2>Abstract</h2>
+    <dl>
+        <p>「アキ」は空いていることを意味し、「コミ」は混雑していることを意味します。</p>
+        
+        <p>蔓延しているコロナウイルスは、私たちの生活を完全に変えました。私たちはお互いに近づかないように強制され、どこへ行ってもマスクを着用します。<br>そこで、部屋の渋滞状況をリアルタイムで提供できるシステムを考案しました。そのシステムを「AkiKomi」と名付けました。</p>
+       
+        <p>センサーカウントシステムを利用してアイデアを実現し、その情報をスマートフォンアプリケーションにリンクすることで、ユーザーがコロナウイルスを気にせずにどこに行くかを選択できるようにします。<br>部屋が混雑する可能性が減り、人が一か所に集まるのを防ぐため、コロナウイルスのリスクを減らすことが可能になるでしょう。</p>
+
+    </dl>
+    
+    </section>
+    <!--/#abstract-->
+    
+    <section id="objective">
+    
+    <h2>Objective</h2>
+
+    <p>現在の最大の目標は、このシステムを迅速に形にして、学校で使い始めることです。<br>新型コロナウイルスのクラスターの抑制を目指して、空間内の人の混み具合をリアルタイムで把握できるシステムを構築します。</p>
+    
+    <p>そして今後は、このシステムで得たデータをクラスターが発生しやすい現場で活用してもらうことを目指しています。<br>地元の飲食店や公共施設での活用を視野に入れてプロジェクトを進めていきます。</p>
+
+
+    <h3>Department</h3>
+    <table class="ta1">
+    <caption>チーム構成</caption>
+    <tr>
+    <th>ソフトウェアエンジニアチーム </th>
+    <td>ユーザーが部屋の空き情報を確認するためのアプリを、Xcodeを用いて開発をします。</td>
+    </tr>
+    <tr>
+    <th>デザイナーチーム</th>
+    <td>企業向けのWebサイトを制作します。</td>
+    </tr>
+    <tr>
+    <th>エレクトロニックエンジニアチーム</th>
+    <td>人の出入りを数えるためのセンサの制作をします。</td>
+    </tr>
+    </table>
+    
+    
+    
+
+    </section>
+    <!--/#objective-->
+
+
+  <section id="application">
+    
+    <h2>Application</h2>
+    <dl>
+        <p>開発中のアプリケーションの機能を少し紹介します。</p>
+
+    </dl>
+    
+    </section>
+    <!--/#abstract-->
+    
+
+    <section id="sensor">
+    
+    <h2>Sensor</h2>
+
+    <p>プロジェクトで用いるセンサを紹介します。</p>
+    
+    <div class="list">
+    <img src="images/AMG88.png" alt="">
+    <h4>グリッドアイセンサ（AMG88）</h4>
+    <p>高感度な二次元の赤外線アレイセンサで赤外線画像を取得し、センサ内蔵の演算ICにより、エリアの温度分布を出力します。
+        MEMS技術を用いたサーモパイル素子で、毎秒10回の赤外線画像を測定できるため、リアルタイム性に優れ、急激な温度変化を捉えることができます。さらに、パナソニック独自の人検知技術を組み合わせることで、様々な機器の省エネ・快適ソリューションをサポートします。</p>
+    </div>
+    
+    <div class="list">
+    <img src="images/超音波センサー（HC-SR04）.jpeg" alt="">
+    <h4>超音波距離センサ（HC-SR04）</h4>
+    <p>超音波の反射時間を利用して非接触で測距するモジュールです。外部からトリガパルスを入力すると超音波パルス(8波)が送信され、出力された反射時間信号をマイコン(Arduino等)で計算することによって距離を測ることができます。
+    </p>
+    </div>
+    
+    <div class="list">
+    <img src="images/飛行時間センサー（VL53L0X）.jpeg" alt="">
+    <h4>飛行時間測距センサ（VL53L0X）</h4>
+    <p>本センサはST’s VL53L0Xレザー距離測定システムを搭載されるキャリア/ブレイクアウト基板で、最大測定距離は 2 メートル に達します。VL53L0Xは赤外線パルスの飛行時間測定原理を使って、測定のターゲットの表面や色の影響せず、測距機能を実現しますて、測定値はデジタル I²Cインターフェースで読み込めます。本基板にの2.8Vリニアレギュレータとレベルシフタが入力電圧2.6V－5.5Vで作動するのは可能になります。0.1のピン間隔もブレッドボードや0.1のパーフボードに使用しやすくなります。</p>
+    </div>
+    
+    <div class="list">
+    <img src="images/2ラズベリーパイカメラ（Model V2）.jpeg" alt="">
+    <h4>ラズベリーパイカメラ（Model V2）</h4>
+    <p>Raspberry Pi用の高精細ビデオカメラです。全てのモデルでお使いいただくことが可能です。旧版からカメラユニットが変更され、500万画素から800万画素になりました。
+       露光制御、ホワイトバランス、輝度検出などの自動制御機能も備えており、Raspberry PiでのHDビデオや静止画の撮影に最適です。</p>
+    </div>
+    
+   
+    
+    </section>
+    <!--/#sensor-->
+    
+
+    <section id="contact">
+    
+    <h2>Contact</h2>
+    <p class="c">
+        プロジェクトメンバー募集中！
+        <br>
+        少しでも興味のある１年生の方はいつでもご連絡ください。
+        <br>
+        <br>
+        募集要項
+        <br>・プログラミングの経験がある人 <br>・センサー（電子回路）に興味のある人<br>・HTMLを使ってWebサイトを作ってみたい人<br>
+        <br>
+        お問い合わせは以下までお願い致します。
+    </p>
+    <p class="c"><span class="big1">03-4649-4649</span><br>
+    
+    プロジェクトリーダーの連絡先です。</p>
+    <p class="c"><img src="images/youtube_profile_image.png" alt="" width="300"></p>
+    
+    </section>
+    <!--/#contact-->
+    
+    </div>
+    <!--/#contents-->
+    
+    </div>
+    <!--/#container-->
+    
+    <footer>
+    <small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+    <span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+    </footer>
+    
+    <!--ページの上部に戻る「↑」ボタン-->
+    <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+    
+    </body>
+    </html>
+    
