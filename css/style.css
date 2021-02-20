@@ -12,7 +12,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #333;	/*全体の文字色*/
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;	/*フォント種類*/
+	font-family: Georgia, 'Times New Roman', Times, serif;	/*フォント種類*/
 	font-size: 18px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: rgb(243, 241, 219);	/*背景色*/
