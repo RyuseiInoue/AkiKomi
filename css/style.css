@@ -15,7 +15,7 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;	/*フォント種類*/
 	font-size: 18px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
-	background: rgb(217, 215, 235);	/*背景色*/
+	background: rgb(72, 68, 104);	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
