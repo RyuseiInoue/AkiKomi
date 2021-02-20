@@ -15,7 +15,7 @@ body {
 	font-family: Georgia, 'Times New Roman', Times, serif;	/*フォント種類*/
 	font-size: 18px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
-	background: rgb(243, 241, 219);	/*背景色*/
+	background: rgb(217, 215, 235);	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {
@@ -111,12 +111,12 @@ header #logo img {
 #contents h2 {
 	margin-bottom: 20px;
 	clear: both;
-	padding: 0 20px;
-	font-size: 20px;		/*文字サイズ*/
+	padding: 0 30px;
+	font-size: 25px;		/*文字サイズ*/
 	text-align: center;		/*文字をセンタリング*/
-	letter-spacing: 0.1em;	/*文字間隔を少しだけ広くする指定*/
+	letter-spacing: 0.2em;	/*文字間隔を少しだけ広くする指定*/
 	background: #374c55;	/*背景色*/
-	color: #fff;			/*文字色*/
+	color: rgb(255, 255, 255);			/*文字色*/
 	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 }
 /*コンテンツ内にあるh3(見出し)タグの指定*/
