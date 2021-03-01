@@ -15,7 +15,7 @@ body {
 	color: #333;	/*全体の文字色*/
 	font-family: Verdana, Geneva, Tahoma, sans-serif;/*フォント種類*/
 	font-size: 18px;	/*文字サイズ*/
-	line-height: 2;		/*行間*/
+	line-height: 2;  /*行間*/
 	background: rgb(215, 214, 219);	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
@@ -96,7 +96,7 @@ header #logo img {
 
 /*コンテナー（headerとfooterをのぞくブロックを囲むブロック）
 ---------------------------------------------------------------------------*/
-#container {
+#abstract, #objective, #application, #contact, #sensor h2{
 	max-width: 900px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
@@ -148,18 +148,18 @@ header #logo img {
 }
 
 /*Sensorページ
----------------------------------------------------------------------------*/
+---------------------------------------------------------------*/
 /*各ブロックごとの設定*/
-.list {
+/*.list {
 	overflow: hidden;
 	line-height: 1.5;
-	border-bottom: 3px solid #999;	/*下線の幅、線種、色*/
-	padding: 20px;	/*ボックス内の余白*/
+	border-bottom: 3px solid #999;	/*下線の幅、線種、色
+	padding: 20px;	/*ボックス内の余白
 }
 /*１番目のlistブロックへの追加指定。上に線を入れる。*/
-.list:first-of-type {
+/*.list:first-of-type {
 	border-top: 3px solid #999;
-}
+}/*
 /*h4見出しの設定*/
 .list h4 {
 	font-size: 30px;	/*文字サイズ*/
@@ -397,4 +397,49 @@ ol {
 	margin-right: 10px;
 	counter-increment: gallery-cell;
 }
-  
+ 
+
+/* 2カラムサイトにする */
+.wrapper {
+    width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.main, .side {
+    padding: 20px;
+}
+
+
+.side {
+    background: skyblue;
+    width: 20%;
+}
+
+.side p {
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+/* 2カラムコンテンツにする */
+
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.archive div {
+    margin-bottom: 3rem;
+    padding: 3rem;
+    width: 35%;
+    background-color: #f0f0f0;
+}
+
+.archive img {
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: auto;
+}
