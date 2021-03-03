@@ -111,13 +111,17 @@ header #logo img {
 /*コンテナー（headerとfooterをのぞくブロックを囲むブロック）
 ---------------------------------------------------------------------------*/
 #abstract p, #objective p , #application p, #contact p {
-	max-width: 700px;	/*最大幅。これ以上広くならない指定。*/
+	max-width: 800px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
 
-#abstract h1, #objective h1,#objective table, #application h1, #contact h1, #sensor h1{
-	max-width: 1100px;	/*最大幅。これ以上広くならない指定。*/
+#abstract h1, #objective h1, #application h1, #contact h1, #sensor h1{
+	max-width: 300px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
+}
+
+#objective table{
+	max-width: 1100px;
 }
 
 /*コンテンツ（上のcontainerの中のブロック）
@@ -134,11 +138,11 @@ header #logo img {
 	margin-bottom: 20px;
 	clear: both;
 	padding: 0 30px;
-	font-size: 25px;		/*文字サイズ*/
+	font-size: 30px;		/*文字サイズ*/
 	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.2em;	/*文字間隔を少しだけ広くする指定*/
-	background: #374c55;	/*背景色*/
-	color: rgb(255, 255, 255);			/*文字色*/
+	background: rgb(215, 214, 219);	/*背景色*/
+	color: rgb(52, 33, 77);			/*文字色*/
 	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 }
 /*コンテンツ内にあるh3(見出し)タグの指定*/
@@ -272,11 +276,12 @@ footer .pr {
 ---------------------------------------------------------------------------*/
 body .nav-fix-pos-pagetop a {
 	display: none;
+	font-size: 35px;
 }
 body.is-fixed-pagetop .nav-fix-pos-pagetop a {
 	display: block;text-decoration: none;text-align: center;position: fixed;animation-name: opa1;animation-duration: 1s;animation: alternate;
-	width: 60px;		/*ボタンの幅*/
-	line-height: 60px;	/*ボタンの高さ*/
+	width: 50px;		/*ボタンの幅*/
+	line-height: 50px;	/*ボタンの高さ*/
 	bottom: 50px;		/*画面の下からの配置場所指定*/
 	right: 3%;			/*画面の右からの配置場所指定*/
 	background: #555;	/*背景色（古いブラウザ用）*/
