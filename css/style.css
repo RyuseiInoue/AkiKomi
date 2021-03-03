@@ -436,6 +436,7 @@ ol {
     padding: 0.5rem;
     width: 35%;
     background-color: rgb(215, 214, 219);
+	margin-left: 5rem;
 }
 
 .archive img  {
@@ -443,4 +444,5 @@ ol {
     margin-bottom: -1rem;
     width: 70%;
     height:auto;
+
 }
