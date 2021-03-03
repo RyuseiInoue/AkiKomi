@@ -107,7 +107,7 @@ header #logo img {
 	margin: 0 auto;
 }
 
-#abstract h2, #objective h2,#objective table, #application h2, #contact h2, #sensor h2{
+#abstract h1, #objective h1,#objective table, #application h1, #contact h1, #sensor h1{
 	max-width: 1100px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
@@ -121,8 +121,8 @@ header #logo img {
 #contents section + section {
 	padding-top: 50px;
 }
-/*コンテンツ内にあるh2(見出し)タグの指定*/
-#contents h2 {
+/*コンテンツ内にあるh1(見出し)タグの指定*/
+#contents h1 {
 	margin-bottom: 20px;
 	clear: both;
 	padding: 0 30px;
@@ -153,7 +153,7 @@ header #logo img {
 #contents p + p {
 	margin-top: -5px;
 }
-#contents h2 + p,
+#contents h1 + p,
 #contents h3 + p {
 	margin-top: -10px;
 }
@@ -360,8 +360,8 @@ header #logo img {
 
 /*コンテンツ（上のcontainerの中のブロック）
 ---------------------------------------------------------------------------*/
-/*コンテンツ内にあるh2(見出し)タグの指定*/
-#contents h2 {
+/*コンテンツ内にあるh1(見出し)タグの指定*/
+#contents h1 {
 	font-size: 16px;	/*文字サイズ*/
 }
 /*コンテンツ内にあるh3(見出し)タグの指定*/
