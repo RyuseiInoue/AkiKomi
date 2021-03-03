@@ -52,11 +52,18 @@ header {
    }
 /*ロゴ画像*/
 header #logo img {
-	display: flexbox;
+	display: inline-block;
 	width: 40%;	/*画像の幅*/
-	position: absolute;
+	position:absolute;
 	left: 30%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
 	bottom: 25%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	height: auto;
+	margin: 20px auto;
+	animation-name: opa1;
+	animation-delay: 1S;
+	animation-duration: 1S;
+	animation-fill-mode:both;
+   
 }
 
 /*メニュー
@@ -75,8 +82,8 @@ header #logo img {
 	display: inline-block;
 	margin: 20px;
 	animation-name: opa1;
-	animation-delay: 1S;
-	animation-duration: 1S;
+	animation-delay: 2S;
+	animation-duration: 5S;
 	animation-fill-mode: both;
 }
 #menubar li a {
