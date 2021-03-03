@@ -137,8 +137,8 @@ header #logo img {
 #contents h1 {
 	margin-bottom: 20px;
 	clear: both;
-	padding: 0 30px;
-	font-size: 30px;		/*文字サイズ*/
+	padding: 0 0px;
+	font-size: 40px;		/*文字サイズ*/
 	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.2em;	/*文字間隔を少しだけ広くする指定*/
 	background: rgb(215, 214, 219);	/*背景色*/
