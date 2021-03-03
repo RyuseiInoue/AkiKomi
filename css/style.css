@@ -431,6 +431,10 @@ ol {
 	
 }
 
+.archive p {
+	font-size: 2vw
+}
+
 .archive div {
     margin-bottom: 2rem;
     padding: 0.5rem;
