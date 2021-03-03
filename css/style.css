@@ -405,7 +405,6 @@ ol {
     justify-content: center;
 	width: 80%;
 	height: auto;
-
 }
 
 .main, .side {
@@ -429,6 +428,7 @@ ol {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+	
 }
 
 .archive div {
@@ -436,12 +436,13 @@ ol {
     padding: 0.5rem;
     width: 35%;
     background-color: rgb(215, 214, 219);
-	margin-left: 5rem;
+	
+	
 }
 
 .archive img  {
     display: block;
     width: 70%;
     height:auto;
-
+	margin-left: 2rem;
 }
