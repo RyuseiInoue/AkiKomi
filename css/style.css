@@ -408,7 +408,7 @@ ol {
 }
 
 .main, .side {
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -431,15 +431,15 @@ ol {
 }
 
 .archive div {
-    margin-bottom: 3rem;
-    padding: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
     width: 35%;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 .archive img {
     display: block;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     width: 100%;
-    height: auto;
+    height:200px
 }
