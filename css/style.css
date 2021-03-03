@@ -48,15 +48,15 @@ header {
 	height: 100%;
 	overflow: auto;
 	position: relative;
-	background: url(../images/ryusei.png) no-repeat center center / cover; /*背景画像の読み込み*/
+	background:#000000 no-repeat center center / cover; /*背景画像の読み込み*/
    }
 /*ロゴ画像*/
 header #logo img {
 	display: flexbox;
-	width: 20%;	/*画像の幅*/
+	width: 40%;	/*画像の幅*/
 	position: absolute;
-	left: 40%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
-	bottom: 50%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	left: 30%;		/*ロゴやメニューが入っているブロックに対して、左からの配置場所の指定。*/
+	bottom: 25%;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
 }
 
 /*メニュー
@@ -101,7 +101,7 @@ header #logo img {
 }
 
 #abstract h2, #objective h2,#objective table, #application h2, #contact h2, #sensor h2{
-	max-width: 900px;	/*最大幅。これ以上広くならない指定。*/
+	max-width: 1100px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
 
