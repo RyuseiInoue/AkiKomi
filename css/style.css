@@ -95,7 +95,12 @@ header #logo img {
 
 /*コンテナー（headerとfooterをのぞくブロックを囲むブロック）
 ---------------------------------------------------------------------------*/
-#abstract, #objective, #application, #contact, #sensor h2{
+#abstract p, #objective p , #application p, #contact p {
+	max-width: 700px;	/*最大幅。これ以上広くならない指定。*/
+	margin: 0 auto;
+}
+
+#abstract h2, #objective h2,#objective table, #application h2, #contact h2, #sensor h2{
 	max-width: 900px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
 }
