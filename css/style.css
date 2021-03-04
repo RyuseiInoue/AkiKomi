@@ -105,10 +105,10 @@ header #logo img {
 }
 /*マウスオン時の指定*/
 #menubar li a:hover {
-	border-bottom: 2px solid rgb(238, 80, 80);	/*下線の幅、線種、色*/
+	border-bottom: 2px solid rgb(255, 188, 125);	/*下線の幅、線種、色*/
 	letter-spacing: 0.2em;			/*文字間隔を少しだけ広くする指定。そのままがいいならこの１行を削除。*/
 	transition: 0.5s;
-	background: wheat;
+	background: rgb(255, 221, 159);
 	border-radius: 100px;
 }
 
@@ -195,9 +195,8 @@ header #logo img {
 ---------------------------------------------------------------------------*/
 footer {
 	clear: both;
-	text-align: center;
+	text-align:center;
 	background: #ffffff;	/*背景色*/
-	color: rgb(240, 39, 39);		/*文字色*/
 	font-size: 85%;		/*文字サイズ*/
 }
 footer a {
@@ -207,10 +206,7 @@ footer a {
 footer a:hover {
 	color: #fff;	/*マウスオン時の文字色*/
 }
-footer .pr {
-	display: block;
-	font-size: 80%;
-}
+
 
 /*トップページ内「更新情報・お知らせ」ブロック
 ---------------------------------------------------------------------------*/
@@ -314,8 +310,6 @@ ol {
 .mb15,.mb1em {margin-bottom: 15px;}
 .clear {clear: both;}
 ul.disc {padding: 0em 25px 15px 40px;list-style: disc;}
-.color1, .color1 a {color: #ff4765;}
-.pr {font-size: 10px;}
 .wl {width: 96%;}
 .ws {width: 50%;}
 .c {text-align: center;}
@@ -470,7 +464,7 @@ ol {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: wheat;
+	background: rgb(241, 221, 186);
 }
 
 #staff h1 {
@@ -480,7 +474,7 @@ ol {
 	font-size: 40px;		/*文字サイズ*/
 	text-align: center;		/*文字をセンタリング*/
 	letter-spacing: 0.2em;	/*文字間隔を少しだけ広くする指定*/
-	background: wheat;	/*背景色*/
+	background: rgb(241, 221, 186);	/*背景色*/
 	color: rgb(52, 33, 77);			/*文字色*/
 	border-radius: 100px;	/*角を丸くする指定。大きめであれば適当で構いません。*/
 }
