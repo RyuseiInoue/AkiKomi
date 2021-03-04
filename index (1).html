@@ -32,6 +32,33 @@
     });
     });
     </script>
+
+<script src="/js/jquery-3.6.0.min.js"></script>
+
+<script>
+
+$(function () {
+	"use strict";
+	var flag = "view";
+
+  $(window).on("scroll", function () {  
+    if ($(this).scrollTop() > 680) {
+      if (flag === "view") {
+        $(".fix-header").stop().css({opacity: '1.0'}).animate({
+          top: 0
+        }, 500);
+        flag = "hide";
+      }
+    } else {
+      if (flag === "hide") {
+        $(".fix-header").stop().animate({top:"-40px",opacity: 0}, 500);
+        flag = "view";
+      }
+    }
+  });
+});
+</script>
+
     <header>
     <div id="logo"><a href="https://www.kuas.ac.jp/" target="_blank" rel="noopener noreferrer"><img src="images/youtube_profile_image.png"  ></a></div>
     <nav id="menubar">
@@ -45,6 +72,22 @@
     </ul>
     </nav>
     </header>
+
+    <div class="fix-header">
+        <div class="fix-header-contents">
+        
+            <div id="fix-header-menubar" class="cf">
+                <ul id="scroll-fix-menubar" class="menu">
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#objective">Objective</a></li>
+                <li><a href="#application">Application</a></li>
+                <li><a href="#sensor">Sensor</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     
     <div id="container">
     
