@@ -441,19 +441,8 @@ ol {
 	height: auto;
 }
 
-.main, .side {
-    padding: 10px;
-}
-
-
-.side {
-    background: skyblue;
-    width: 20%;
-}
-
-.side p {
-    background-color: #f0f0f0;
-    padding: 30px;
+.main {
+    padding: 0px;
 }
 
 /* 2カラムコンテンツにする */
