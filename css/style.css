@@ -21,7 +21,7 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-#container, #abstract p{
+#abstract p, #objective p , #application p, #contact p, #staff p,#objective table{
 	font-size: 14px;	/*文字サイズ*/
 	font-weight: bold;
 }
@@ -138,7 +138,7 @@ header #logo img {
 	padding-top: 50px;
 }
 /*コンテンツ内にあるh1(見出し)タグの指定*/
-#abstract h1, #objective h1 , #application h1, #contact h1 {
+#abstract h1, #objective h1 , #application h1, #contact h1,#sensor h1 {
 	margin-bottom: 20px;
 	clear: both;
 	padding: 0 0px;
@@ -174,19 +174,7 @@ header #logo img {
 	margin-top: -10px;
 }
 
-/*Sensorページ
----------------------------------------------------------------*/
-/*各ブロックごとの設定*/
-/*.list {
-	overflow: hidden;
-	line-height: 1.5;
-	border-bottom: 3px solid #999;	/*下線の幅、線種、色
-	padding: 20px;	/*ボックス内の余白
-}
-/*１番目のlistブロックへの追加指定。上に線を入れる。*/
-/*.list:first-of-type {
-	border-top: 3px solid #999;
-}/*
+
 /*h4見出しの設定*/
 .list h4 {
 	font-size: 30px;	/*文字サイズ*/
@@ -457,8 +445,8 @@ ol {
 	
 }
 
-.archive p {
-	font-size: 2vw
+#sensor p {
+	font-size: 1.5vw
 }
 
 .archive div {
@@ -472,7 +460,7 @@ ol {
 
 .archive img  {
     display: block;
-    width: 50%;
+    width: 80%;
     height:auto;
 	margin-left: 2rem;
 }
