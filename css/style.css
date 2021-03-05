@@ -171,6 +171,7 @@ header #logo img {
 #contents h1 {
 	max-width: 300px;	/*最大幅。これ以上広くならない指定。*/
 	margin: 0 auto;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #objective table{
