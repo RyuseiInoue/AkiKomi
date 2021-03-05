@@ -362,11 +362,12 @@ ul.disc {padding: 0em 25px 15px 40px;list-style: disc;}
 .c {text-align: center;}
 .r {text-align: right;}
 .l {text-align: left;}
-.big1 {font-size: 40px;letter-spacing: 0.2em;}
+.big1 {font-size: 27px;letter-spacing: 0.2em; margin-top: 10px;}
 .mini1 {font-size: 11px;display: inline-block;line-height: 1.5;}
 .sh {display: none;}
 
-
+.big2 {font-size: 10px;letter-spacing: 0.2em;}
+.red1{color:red;}
 
 
 /*画面幅800px以下の設定
