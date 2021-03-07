@@ -112,13 +112,43 @@ header #logo img {
 }
 
 
-/*-------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Change1{
+
+	position:absolute;
+	bottom: ;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
+	top: -10px;
+	right: -60px;
+	width: 100%;
+	text-align: right;
+	font-size: 17px;
+	font-family:'Times New Roman', Times, serif ;
+
+}
+
+#Change1 li {
+	display: inline-block;
+	margin: 20px;
+	animation-name: opa1;
+	animation-delay: 2S;
+	animation-duration: 5S;
+	animation-fill-mode: both;
+}
+
+#Change1 li a {
+	text-decoration: none;display: block;text-align: center;
+	width: 200px;	/*メニューの幅*/
+	color: rgb(255, 255, 255);	/*文字色*/
+	border-bottom: 2px solid transparent;	/*下線の幅、線種、色。transparentは透明の事。*/
+	padding-bottom: 10px;	/*下線と文字の間にとる余白*/
+	padding: 5px;
+}
 
 
 
 
-
-/*---------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .fix-header {
 	background-color:#000000;
@@ -581,6 +611,8 @@ ol {
 
 
 
-.Japanese{
+.Change2{
 	float: right;
 }
+
+
