@@ -117,8 +117,8 @@ header #logo img {
 #Change1{
 
 	position:absolute;
-	bottom: ;	/*ロゴやメニューが入っているブロックに対して、下からの配置場所の指定。*/
-	top: -10px;
+
+	top: -5px;
 	right: -60px;
 	width: 100%;
 	text-align: right;
