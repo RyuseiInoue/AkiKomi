@@ -245,7 +245,14 @@ footer {
 	text-align:center;
 	background: #ffffff;	/*背景色*/
 	font-size: 85%;		/*文字サイズ*/
+	height: 60px;
 }
+
+.footer-list{
+	float: center;
+	padding: 15px;
+}
+
 footer a {
 	color: rgb(36, 0, 0);	/*リンクテキストの文字色*/
 	text-decoration: none;
