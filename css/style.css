@@ -111,6 +111,15 @@ header #logo img {
 	border-radius: 100px;
 }
 
+
+/*-------------------------------------------------*/
+
+
+
+
+
+/*---------------------------------------------------*/
+
 .fix-header {
 	background-color:#000000;
 	line-height: 40px;
@@ -562,4 +571,16 @@ ol {
 	transition: 0.5s;
 	background: #aaada9;
 	border-radius: 100px;
+}
+
+
+
+
+
+
+
+
+
+.Japanese{
+	float: right;
 }
