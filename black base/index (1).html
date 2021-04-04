@@ -35,11 +35,11 @@
     });
     </script>
 
-<script src="/js/jquery-3.6.0.min.js"></script>
+  <script src="/js/jquery-3.6.0.min.js"></script>
 
-<script>
+  <script>
 
-$(function () {
+  $(function () {
 	"use strict";
 	var flag = "view";
 
@@ -55,12 +55,13 @@ $(function () {
       if (flag === "hide") {
         $(".fix-header").stop().animate({top:"-40px",opacity: 0}, 500);
         flag = "view";
-      }
-    }
-  });
-});
-</script>
+          }
+        }
+      });
+    });
+  </script>
 
+<body>
 
     <header>
 
@@ -255,7 +256,6 @@ $(function () {
     
     </div>
     <!--/#container-->
-    
     <footer>
     <div style="float: left; padding:5px;">
     <a href="https://www.kuas.ac.jp/"><img src="images/logo_kuas.gif" width=25%></a>
@@ -274,4 +274,13 @@ $(function () {
     <!--ページの上部に戻る「↑」ボタン-->
     <p class="nav-fix-pos-pagetop"><a href="#">^</a></p>
     
-    </html> 
+
+    <div id="stalker"></div>
+    <h1>
+    ただマウスカーソルに黒いドットが付いてくるだけのシンプルなマウスストーカー
+    </h1>
+
+
+</body>
+</html> 
+
